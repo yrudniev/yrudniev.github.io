@@ -210,7 +210,10 @@ body {
 }
 
 .more-photos a {
-  color: black;
+  color: blue;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .section-title {
