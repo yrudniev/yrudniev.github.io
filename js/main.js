@@ -59,7 +59,7 @@ var directionsService;
 function initMap() {
   directionsService = new google.maps.DirectionsService();
   var map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 9,
+    zoom: 10,
     center: destination,
   });
   directionsDisplay = new google.maps.DirectionsRenderer({
