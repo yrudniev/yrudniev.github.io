@@ -40,10 +40,10 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   overflow: hidden;
-
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 0.2s;
 }
 
 .header-items {
@@ -78,6 +78,7 @@ body {
   flex-basis: calc(100% / 2);
   align-items: center;
   justify-content: center;
+  transition: 0.2s;
 }
 
 .about-us__description,
@@ -124,6 +125,7 @@ body {
 
 .about-us__images img {
   height: 80dvh;
+  transition: 0.2s;
 }
 
 .section {
@@ -133,6 +135,7 @@ body {
   align-items: center;
   font-family: var(--font);
   margin-bottom: calc(var(--index) * 3);
+  transition: 0.2s;
 }
 
 .section-title {
@@ -222,6 +225,7 @@ body {
   height: 50dvh;
   padding: 0 5%;
   margin-bottom: 15px;
+  transition: 0.2s;
 }
 
 footer {
@@ -229,6 +233,7 @@ footer {
   display: flex;
   background-color: #333;
   color: white;
+  transition: 0.2s;
 }
 
 .map-container {
@@ -343,9 +348,6 @@ footer {
     border-radius: 30px;
     transition: 0.5s;
   }
-
-  .benefit-item {
-  }
 }
 
 @media screen and (max-width: 850px) {
@@ -409,6 +411,7 @@ footer {
 
   .serviceItem__image img {
     height: 80dvh;
+    transition: 0.2s;
   }
 
   .section-title {
@@ -427,6 +430,7 @@ footer {
 
   .serviceItem__image img {
     height: 50dvh;
+    transition: 0.2s;
   }
 }
 
