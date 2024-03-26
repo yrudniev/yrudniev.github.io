@@ -238,18 +238,19 @@ footer {
 
 .company-info {
   display: flex;
-  column-gap: 20px;
+  column-gap: 10px;
   align-items: center;
 }
 
 .company-logo img {
-  width: var(--headerSize);
+  width: calc(var(--index) * 3);
   height: auto;
 }
 
 .footer-company-title {
   font-size: var(--headerSize);
   font-weight: bold;
+  height: fit-content;
 }
 
 .footer-conpany-desc {
@@ -352,6 +353,11 @@ footer {
   .group-item {
     flex-basis: calc(100vw / 2 - 60px);
     padding: 0px;
+  }
+
+  .company-logo img {
+    width: calc(var(--index) * 4);
+    height: auto;
   }
 
   .about-us {
