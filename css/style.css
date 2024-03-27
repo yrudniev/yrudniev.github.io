@@ -9,6 +9,10 @@ a {
   text-decoration: none; /* no underline */
 }
 
+b {
+  font-weight: bolder;
+}
+
 @font-face {
   font-family: raleway_f;
   src: url(../assets/fonts/raleway-regular.woff2);
@@ -99,9 +103,9 @@ body {
   line-height: calc(var(--index) * 2 * 1.2);
 }
 
-.about-us__definition {
+/* .about-us__definition {
   font-size: calc(var(--index) * 1.1);
-}
+} */
 
 .about-us__description__wrapper {
   display: flex;
@@ -166,7 +170,7 @@ body {
 .serviceItem__image img {
   width: 100%;
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
-  height: auto;
+  height: 60lvh;
 }
 
 .serviceItem-title {
@@ -347,12 +351,13 @@ footer {
     border-radius: 30px;
     transition: 0.5s;
   }
-
-  .benefit-item {
-  }
 }
 
 @media screen and (max-width: 850px) {
+  .serviceItem-title {
+    font-size: calc(var(--index) * 1.5);
+  }
+
   .group-item {
     flex-basis: calc(100vw / 2 - 60px);
     padding: 0px;
