@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Риболовна база відпочинку - Rasavka</title>
+    <title>Rasavka(Бестер) - Риболовна база відпочинку</title>
     <link rel="icon" type="image/x-icon" href="/assets/icons/logo.png" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,7 +14,7 @@
     />
     <meta
       name="keywords"
-      content="расавка, расавка база отдыха, Расавка база відпочинку, расавка рибалка,рыбалка, рыбалка Киев, рыбалка Киевская область, рыбалка Днепр, рибалка, риболовля, риболовля Київ, рибалка дніпро, рибалка Київ, рибалка київська область, відпочок Київ, відпочити Київ, топ місця для риболовлі"
+      content="расавка, расавка база отдыха, Расавка база відпочинку, расавка рибалка,рыбалка, рыбалка Киев, рыбалка Киевская область, бестер, бестер риболовна база, бестер риболка ,рыбалка Днепр, рибалка, риболовля, риболовля Київ, рибалка дніпро, рибалка Київ, рибалка київська область, відпочок Київ, відпочити Київ, топ місця для риболовлі"
     />
     <meta
       name="google-site-verification"
@@ -45,20 +45,25 @@
   </head>
   <body>
     <header class="welcome-section">
-      <!-- <nav>
-        <ul class="header-items">
-          <li class="header-item">Про нас</li>
-          <li class="header-item">Послуги</li>
-          <li class="header-item">Контакти</li>
-        </ul>
-      </nav> -->
+      <nav class="top-nav">
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+        <div class='menu-button'></div>
+      </label>
+      <ul class="menu">
+        <li><a href="#about">Про нас</a></li>
+        <li><a href="#services">Послуги</a></li>
+        <li><a href="#our-clients">Фото наших гостей</a></li>
+        <li><a href="#contacts">Контакти</a></li>
+      </ul>
+      </nav>
 
       <div class="company-header">
         <h1 class="company-title">Rasavka</h1>
         <h4 class="company-description">Риболовна база відпочинку</h4>
       </div>
     </header>
-    <div class="about-us">
+    <div id="about" class="about-us">
       <div class="about-us__description">
         <div class="about-us__description__wrapper">
           <h3 class="about-us__description-header">
@@ -110,7 +115,7 @@
         </div>
       </div>
     </div>
-    <div class="our-services-section section">
+    <div id="services" class="our-services-section section">
       <h3 class="our-services-section-title section-title">Що ми пропонуємо</h3>
       <div class="our-services items-group">
         <div class="our-services__serviceItem group-item">
@@ -318,7 +323,7 @@
       </div>
     </div>
 
-    <div class="our-clients">
+    <div id="our-clients" class="our-clients">
       <h3 class="section-title">Фото наших гостей</h3>
       <div class="our-client__slider-wrapper">
         <div class="swiper ourClientsSwiper">
@@ -404,7 +409,7 @@
         </a>
       </div>
     </div>
-    <footer>
+    <footer id="contacts">
       <div class="map-container" id="map"></div>
       <div class="contact-us-container">
         <div class="our-contacts">
