@@ -20,12 +20,14 @@ b {
 @font-face {
   font-family: raleway_f;
   src: url(../assets/fonts/raleway-regular.woff2);
+  font-display: swap;
 }
 
 @font-face {
   font-family: raleway_f;
   src: url(../assets/fonts/raleway-black.woff2);
   font-weight: 900;
+  font-display: swap;
 }
 
 body {
